@@ -1,0 +1,26 @@
+@import "../../styles/veriables";
+
+.formBtn {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  background-color: #4c394e;
+  color: $white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  
+}
+
+.formBtn:hover {
+  background-color: #744978;
+}
+
+.formBtn:active {
+  background-color: $dark-green;
+}
+.formBtn:active:hover {
+  background-color: $light-green;
+}

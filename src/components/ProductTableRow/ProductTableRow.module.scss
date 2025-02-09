@@ -1,0 +1,29 @@
+.tableRow {
+  text-align: center; /* Горизонтальне вирівнювання */
+  vertical-align: middle; /* Вертикальне вирівнювання */
+}
+
+.productImage {
+  display: inline-block;
+  width: 30px;
+  object-fit: cover;
+  height: auto;
+  cursor: pointer;
+}
+
+.actionBtns button {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.actionBtns button:nth-child(2) {
+  margin: 10px; /* Встановлюємо специфічний відступ для другої кнопки */
+}

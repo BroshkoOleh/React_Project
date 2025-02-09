@@ -1,0 +1,145 @@
+.title {
+  @include header-secondary-text;
+}
+
+.line {
+  margin-top: 23px;
+  margin-bottom: 24px;
+  border: 1px solid $border-color;
+}
+// .cardsGallery {
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   gap: 32px 24px;
+//   position: relative;
+//   margin-bottom: 120px;
+// }
+.chatBtn {
+  width: 64px;
+  height: 64px;
+  background-image: url("../images/chat_icon.png");
+  background-repeat: no-repeat;
+  background-color: $light-blue;
+  background-position: center;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 95px;
+  right: 5px;
+  z-index: 1;
+}
+.chatBtn:hover {
+  background-image: url("../images/icon-chat-active.png");
+}
+
+.card {
+  border: 1px solid $border-color;
+  width: 306px;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+.cardContent {
+  padding: 32px;
+  position: relative;
+}
+.cardContentLink {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 16px;
+}
+.img1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productBadge {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 32px;
+  top: 32px;
+  gap: 4px;
+}
+.badge {
+  @include regulary-text;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  color: $white;
+}
+.badgeHit {
+  background-color: $dark-blue;
+}
+.badgeNew {
+  background-color: $light-purple;
+}
+.badgeDiscount {
+  background-color: $pink;
+}
+.cardContentTitle {
+  @include header-tertiary-text;
+  padding-bottom: 3px;
+  min-height: 60px;
+}
+.cardContentAuthor {
+  @include regulary-text;
+  color: $gray;
+  border-top: 1px solid $border-color;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.cardContentPrice {
+  @include standart-text;
+  color: $red;
+  padding-top: 8px;
+}
+
+.cardContentBtn {
+  width: 100%;
+  height: 40px;
+  background-color: $dark-eggplant;
+  margin-top: 16px;
+  color: $white;
+  @include regulary-text;
+  padding: 8px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.cardContentBtn::before {
+  content: "Add to basket";
+}
+.cardContentBtn:hover {
+  background-color: #744978;
+}
+
+.cardContentBtn:active::before {
+  content: "End up";
+}
+.cardContentBtn:active {
+  background-color: $dark-green;
+}
+.cardContentBtn:active:hover {
+  background-color: $light-green;
+}
+.iconContainer {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+
+  &.favorite {
+    path {
+      fill: goldenrod;
+    }
+  }
+}

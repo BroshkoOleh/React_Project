@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  background-color: $dark-eggplant;
+  height: 88px;
+}
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .footerItem {
+    @include regulary-text;
+    color: $white;
+  }
+}

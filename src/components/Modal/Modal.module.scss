@@ -1,0 +1,121 @@
+@import "../styles/_veriables";
+@import "../styles/mixin";
+
+.modalWrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  top: 0;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #fff;
+  width: 50%;
+  max-width: 700px;
+  max-height: 700px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  z-index: 2;
+  gap: 30px;
+}
+.closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 24px;
+  width: 24px;
+  opacity: 0.3;
+  cursor: pointer;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    opacity: 1;
+  }
+}
+.title {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.description {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.modalBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.modalBtn {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  background-color: #4c394e;
+  color: $white;
+
+  padding: 8px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.modalBtn:hover {
+  background-color: #744978;
+}
+
+.modalBtn:active {
+  background-color: $dark-green;
+}
+.modalBtn:active:hover {
+  background-color: $light-green;
+}
+
+.approveTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.approveIcon img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.productImg {
+  width: 100%; // Makes the container take the full width of its parent
+  max-width: 100px; // Limits the maximum width of the container to 100px
+  overflow: hidden; // Ensures that if the image is too large, it gets clipped
+  margin: 0 auto;
+}
+
+.productImg img {
+  width: 100%; // Makes the image take the full width of the container
+  height: auto; // Maintains the aspect ratio of the image
+  display: block; // Removes any extra space below the image
+}

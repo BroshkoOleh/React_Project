@@ -1,0 +1,7 @@
+.cardsGallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px 24px;
+  position: relative;
+  margin-bottom: 120px;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "./images/image-1.jpg",
+    "name": "Final Offer",
+    "author": "Lauren Asher",
+    "price": 16.05,
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "imgUrl": "./images/image-2.jpg",
+    "name": "It Ends With Us: The most ",
+    "author": "Colleen Hoover",
+    "price": 10.52,
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "imgUrl": "./images/image-3.jpg",
+    "name": "Atomic Habits",
+    "author": "James Clear",
+    "price": 19.75,
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "imgUrl": "./images/image-4.jpg",
+    "name": "The Creative Act",
+    "author": "Rick Rubin",
+    "price": 29.45,
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "imgUrl": "./images/image-5.jpg",
+    "name": "Spare",
+    "author": "Prince Harry the Duke of Sussex",
+    "price": 29.71,
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "imgUrl": "./images/image-6.jpg",
+    "name": "Digital Minimalism",
+    "author": "Cal Newport",
+    "price": 11.94,
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "imgUrl": "./images/image-7.jpg",
+    "name": "Meditations",
+    "author": "Marcus Aurelius",
+    "price": 10.65,
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "imgUrl": "./images/image-8.jpg",
+    "name": "How to Think Like a Roman Emperor",
+    "author": "Donald Robertson",
+    "price": 15.75,
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "imgUrl": "./images/image-9.jpg",
+    "name": "The Meditations of Marcus ",
+    "author": "Marcus Aurelius",
+    "price": 10.9,
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "imgUrl": "./images/image-10.jpg",
+    "name": "Lives of the Stoics ",
+    "author": "Ryan Holiday",
+    "price": 11.51,
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "imgUrl": "./images/image-11.jpg",
+    "name": "Dopamine Nation",
+    "author": "Dr Anna Lembke",
+    "price": 10.11,
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "imgUrl": "./images/image-12.jpg",
+    "name": "I Don't Need Therapy",
+    "author": "Toni Lodge",
+    "price": 21.16,
+    "isFavorite": false
+  }
+]

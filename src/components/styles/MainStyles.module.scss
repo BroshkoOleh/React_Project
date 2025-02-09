@@ -1,0 +1,46 @@
+@import "./_reset.scss";
+@import "./_veriables.scss";
+@import "./_mixin.scss";
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  font-family: "Cabin", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.mainContent {
+  flex: 1;
+  overflow-y: auto;
+}
+.changeViewBtn {
+  border: none;
+  background-color: $light-blue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 12px;
+  &:hover {
+    background-color: #10aec6;
+  }
+  img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+}
+@import "./_header.scss";
+
+@import "./_cards.scss";
+@import "./cardsShopping";
+@import "./_footer.scss";
+footer {
+  flex: 0 0 auto;
+}

@@ -1,0 +1,14 @@
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden; // Якщо потрібно обрізати зайві частини зображення
+
+  .image {
+    max-width: 100%; // Зображення не виходитиме за межі контейнера
+    height: auto; // Зберігає пропорції
+    object-fit: contain; // Адаптивне масштабування, щоб зображення поміщалося в контейнер
+  }
+}

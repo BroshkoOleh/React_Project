@@ -1,0 +1,34 @@
+@import "./_veriables.scss";
+
+// FORMATION TEXT
+@mixin header-primary-text {
+  font-size: $font-size-xl;
+  font-weight: $font-bold;
+  line-height: 29px;
+}
+@mixin header-secondary-text {
+  font-size: $font-size-xxl;
+  font-weight: $font-medium;
+  line-height: 40px;
+}
+@mixin header-tertiary-text {
+  font-size: $font-size-medium;
+  font-weight: $font-bold;
+  line-height: 28px;
+}
+@mixin regulary-text {
+  font-size: $font-size-small;
+  font-weight: $font-regular;
+  line-height: 24px;
+}
+
+@mixin standart-text {
+  font-size: $font-size-xl;
+  font-weight: $font-normal;
+  line-height: 32px;
+}
+@mixin small-text {
+  font-size: $font-size-xs;
+  font-weight: $font-bold;
+  line-height: 10px;
+}

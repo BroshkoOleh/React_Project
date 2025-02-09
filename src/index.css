@@ -1,0 +1,20 @@
+/* const toggleFavorite = async (id) => {
+    try {
+      const data = await fetch("./data.json", {
+        method: "PATCH",
+        body: JSON.stringify({ id }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }).then((res) => res.json());
+      setProducts((prev) => {
+        const clonedState = structuredClone(prev);
+        const elem = clonedState.find((item) => item.id === id);
+        elem.isFavorite = !elem.isFavorite;
+        console.log(elem);
+        return clonedState;
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  }; */
