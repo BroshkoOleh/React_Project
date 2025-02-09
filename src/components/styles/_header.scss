@@ -40,7 +40,7 @@
 .logo::before {
   content: "";
   position: absolute;
-  background: url("./images/Vector.svg");
+  background: url("/images/Vector.svg");
   display: block;
   max-width: 21.67px;
   width: 100%;
@@ -96,7 +96,7 @@
 
   height: 40px;
 
-  background: url("./images/whiteStar.png");
+  background: url("/images/whiteStar.png");
   background-position: center;
   background-size: contain;
 
